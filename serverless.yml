@@ -16,3 +16,9 @@ functions:
       - http:
           path: hello
           method: get
+  users-create:
+    handler: handlers/users/create.handler
+    events:
+      - http:
+          path: users
+          method: post
