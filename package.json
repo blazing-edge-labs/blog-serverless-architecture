@@ -1,0 +1,26 @@
+{
+  "name": "blog-serverless-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazing-edge-labs/blog-serverless-architecture.git"
+  },
+  "author": "Blazing Edge",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/blazing-edge-labs/blog-serverless-architecture/issues"
+  },
+  "homepage": "https://github.com/blazing-edge-labs/blog-serverless-architecture#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "nested-error-stacks": "^2.1.0",
+    "pg-promise": "^8.4.6",
+    "serverless-offline": "^3.25.10"
+  }
+}
